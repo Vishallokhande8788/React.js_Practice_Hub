@@ -1,0 +1,37 @@
+/* Style for the button */
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  /* Style for the increase button */
+  .increase {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+  
+  .increase:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  /* Style for the decrease button */
+  .decrease {
+    background-color: #f44336; /* Red */
+    color: white;
+  }
+  
+  .decrease:hover {
+    background-color: #e53935; /* Darker red on hover */
+  }
+  
+  /* Style for the h1 */
+  h1 {
+    color: #333;
+    font-size: 24px;
+  }
+  
