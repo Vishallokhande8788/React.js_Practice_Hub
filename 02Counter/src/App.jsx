@@ -6,10 +6,16 @@ function Count() {
 
   const AddValue = () => {
     setCount(count + 1);
+    if (count == 10){
+      setCount(10);
+    }
   }
 
   const SubValue = () => {
     setCount(count - 1);
+    if(count == 0){
+      setCount(0);
+    }
   }
 
   return (
